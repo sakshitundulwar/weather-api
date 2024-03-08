@@ -28,7 +28,7 @@ def weather_zipcode():
     if not zip_code:
         return jsonify({'error': 'Please enter valid zipcode'}), 400
 
-    api_key = '5c0f922a682dcb1819ada389f807fe9c'
+    api_key = 'YOUR_API_KEY'
     weather_url = 'http://api.openweathermap.org/data/2.5/weather'
 
     # Request to openweathermap API with API_KEY
